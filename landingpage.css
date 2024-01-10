@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 730px;
+    width: 100%;
+    background-image: url("b1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    float: left;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+    float: left;
+    /* background-color: purple; */
+}
+.logo p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    color: white;
+}
+.options{
+    height: 100%;
+    width: 55%;
+    /* background-color: yellow; */
+    float: left;
+}
+.options ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 35px;
+    color: white;
+}
+.options ul li:hover{
+    color: blue;
+}
+.register{
+    /* background-color: khaki; */
+    height: 100%;
+    width: 20%;
+    float: left;
+
+}
+.register button{
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: red;
+    background-color: green;
+    border-radius: 8px;
+    border: none;
+}
+.heading1{
+    position: absolute;
+    color: red;
+    top: 40%;
+    left: 25%;
+    font-size: 60px;
+}
+.buttonclass{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    color:white;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+}
